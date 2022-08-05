@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  /* box-sizing: outline-box; */
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-section{
+  background-image: url(assets/top-section_background-image.png);
+  height: 735px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  max-height: 76px;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 1200px;
+  /* outline: 1px solid red; */
+}
+
+/* pasted! this is for search input in nav start */
+
+
+.search_input{
+  border: 1px;
+}
+input[type=search] {
+  border-radius: 100px;
+}
+
+input[type=search]::placeholder {
+  color: black;
+}
+
+input[type=search]:focus {
+  box-shadow: 0 0 3px 0 #1183d6;
+  border-color: #1183d6;
+  outline: none;
+}
+
+form.search_input {
+  border: none;
+  padding: 0;
+}
+
+input.search_input {
+  border: 1px;
+  width: 100%;
+  padding: 9px 4px 9px 40px;
+  background: url(assets/search.svg);
+  background-repeat: no-repeat;
+  background-position: 13px;
+  
+}
+
+/* pasted! this is for search input in nav finish */
+
+
+
+
+
+
+.nav-ul{
+  display: flex;
+  gap: 10px;
+
+}
+
+.nav-ul__link{
+  text-decoration: none;
+  color: white;
+}
+
+li{
+  list-style-type: none;
+}
