@@ -3,10 +3,9 @@
 *::after {
   /* box-sizing: outline-box; */
   box-sizing: border-box;
-}
-
-body{
   font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  margin: 0;
 }
 
 .top-section{
@@ -19,57 +18,52 @@ body{
 .navbar{
   display: flex;
   justify-content: space-between;
-  max-height: 76px;
+  align-items: center;
+  padding: 20px 0;
+  /* max-height: 76px; */
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
 }
 
 .wrapper {
   margin: auto;
+  padding: 0 24px ;
   max-width: 1200px;
   /* outline: 1px solid red; */
 }
 
 /* pasted! this is for search input in nav start */
 
-
 .search_input{
-  border: 1px;
-}
-input[type=search] {
-  border-radius: 100px;
-}
-
-input[type=search]::placeholder {
-  color: black;
+  font-weight: 100;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
 }
 
-input[type=search]:focus {
-  box-shadow: 0 0 3px 0 #1183d6;
-  border-color: #1183d6;
+.search_input::placeholder {
+  color: white;
+}
+
+.search_input:focus {
+  box-shadow: 0 0 3px 0 white;
+  border-color: white;
   outline: none;
 }
 
-form.search_input {
+form.search_input { /* ? */
   border: none;
   padding: 0;
 }
 
-input.search_input {
-  border: 1px;
+input.search_input { /* ? */
   width: 100%;
   padding: 9px 4px 9px 40px;
   background: url(assets/search.svg);
   background-repeat: no-repeat;
   background-position: 13px;
-  
 }
 
 /* pasted! this is for search input in nav finish */
-
-
-
-
-
 
 .nav-ul{
   display: flex;
@@ -84,4 +78,38 @@ input.search_input {
 
 li{
   list-style-type: none;
+}
+
+.main-header{
+  padding-top: 64px;
+  font-weight: 600;
+  font-size: 64px;
+  color: white;
+  line-height: 70px;
+}
+
+.comment{
+  padding: 15px 0;
+  font-weight:100;
+  font-size: 24px;
+  color: white;
+
+}
+.catalog-link{
+  font-weight:100;
+  font-size: 18px;
+  color: white;
+  text-decoration: underline;
+
+}
+.heading{
+  
+  font-weight:600;
+  font-size: 48px;
+  color: black;
+
+}
+
+.main-content{
+
 }
