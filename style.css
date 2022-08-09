@@ -103,7 +103,7 @@ li{
 
 }
 .heading{
-  
+
   font-weight:600;
   font-size: 48px;
   color: black;
@@ -111,5 +111,18 @@ li{
 }
 
 .main-content{
+
+}
+
+.furn-card{
+  position: relative;
+  color: white;
+}
+
+.furn-links{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
